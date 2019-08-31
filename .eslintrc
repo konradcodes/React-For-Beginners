@@ -101,6 +101,7 @@
     ],
     "import/imports-first": ["error", "absolute-first"],
     "import/newline-after-import": "error",
+
     "prettier/prettier": [
       "error",
       {
