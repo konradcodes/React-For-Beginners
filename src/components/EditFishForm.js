@@ -4,7 +4,6 @@ class EditFishForm extends React.Component {
   handleChange = event => {
     // Update that fish
     // 1. Take a copy of the current fish
-    console.log(event.currentTarget.name);
     const updatedFish = {
       ...this.props.fish,
       [event.currentTarget.name]: event.currentTarget.value,
@@ -48,6 +47,12 @@ class EditFishForm extends React.Component {
           onChange={this.handleChange}
           value={this.props.fish.image}
         />
+        <button
+          type="button"
+          onClick={() => this.props.deleteFish(this.props.index)}
+        >
+          Remove Fish
+        </button>
       </div>
     );
   }
