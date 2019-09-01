@@ -1,1 +1,1 @@
-<h4 align="left">React For Beginners Course by Wes Bos</h4>
+<h4 align="center">React For Beginners Course by Wes Bos</h4>
